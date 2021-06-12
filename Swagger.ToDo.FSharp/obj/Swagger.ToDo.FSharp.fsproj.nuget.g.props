@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\tilted\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server\3.0.0\build\Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore\6.1.4\build\Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore\6.1.4\build\Swashbuckle.AspNetCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSwashbuckle_AspNetCore_Swagger Condition=" '$(PkgSwashbuckle_AspNetCore_Swagger)' == '' ">C:\Users\tilted\.nuget\packages\swashbuckle.aspnetcore.swagger\6.1.4</PkgSwashbuckle_AspNetCore_Swagger>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\tilted\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgSwashbuckle_AspNetCore Condition=" '$(PkgSwashbuckle_AspNetCore)' == '' ">C:\Users\tilted\.nuget\packages\swashbuckle.aspnetcore\6.1.4</PkgSwashbuckle_AspNetCore>
+    <PkgMicrosoft_FSharp_Core_netcore Condition=" '$(PkgMicrosoft_FSharp_Core_netcore)' == '' ">C:\Users\tilted\.nuget\packages\microsoft.fsharp.core.netcore\1.0.0-rc-170316-0</PkgMicrosoft_FSharp_Core_netcore>
+    <PkgMicrosoft_Data_SqlClient Condition=" '$(PkgMicrosoft_Data_SqlClient)' == '' ">C:\Users\tilted\.nuget\packages\microsoft.data.sqlclient\3.0.0</PkgMicrosoft_Data_SqlClient>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\tilted\.nuget\packages\fsharp.core\4.7.2</PkgFSharp_Core>
+    <PkgDapper_FSharp Condition=" '$(PkgDapper_FSharp)' == '' ">C:\Users\tilted\.nuget\packages\dapper.fsharp\2.1.0</PkgDapper_FSharp>
+  </PropertyGroup>
+</Project>

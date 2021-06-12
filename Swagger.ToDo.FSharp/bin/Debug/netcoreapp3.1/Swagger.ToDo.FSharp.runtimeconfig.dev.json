@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\tilted\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tilted\\.nuget\\packages"
+    ]
+  }
+}
